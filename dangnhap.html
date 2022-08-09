@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký</title>
+    <link rel="stylesheet" href="css/dangky.css">
+    <link rel="stylesheet" href="css/dangnhap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <script>
+        function myFunction() {
+            var x = document.getElementById("password");
+            if (x.type === "password") {
+                x.type = "text";
+            } else {
+                x.type = "password";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div id="container">
+        <section class="logo">
+            <a href="index.html"><img src="img/register/logo-pepsi.png" alt="" width="30%"></a>
+        </section>
+        <main>
+            <section class="register">
+                <p>Đăng nhập ngay để xem các ưu đãi của bạn!</p>
+                <label>
+                    <input type="email" placeholder="Email">
+                    <input type="password" placeholder="Mật Khẩu" id="password">
+                    <i onclick="myFunction()" class="bi bi-eye-slash"></i>
+                    <button onClick="window.location.reload();">
+                        <p>Đăng Nhập</p>
+                    </button>
+                </label>
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>

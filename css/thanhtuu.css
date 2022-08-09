@@ -1,0 +1,252 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+/* container */
+#container {
+    background-color: #f8f8f8;
+}
+
+/* header */
+header {
+    width: 1519px;
+    height: 100px;
+    background-color: #0065c3;
+}
+
+header .logo img {
+    width: 4.5%;
+    float: left;
+    margin-left: 50px;
+    margin-top: 15px;
+    transition: transform 1s ease-in-out;
+}
+
+header .logo img:hover {
+    transform: rotate(1440deg);
+}
+
+header menu ul li {
+    padding: 40px 0px 0px 150px;
+}
+
+header menu ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header menu ul li a:hover {
+    color: red;
+}
+
+.form-search {
+    float: right;
+    margin: -25px 405px 0px 0px;
+}
+
+.form-search_input {
+    padding: 8px 66px 8px 30px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+
+.form-search_btn {
+    position: absolute;
+    top: 3.2%;
+    right: 400px;
+    object-fit: contain;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    background-color: #0065c3;
+    overflow: hidden;
+}
+
+.form-search_btn i {
+    display: block;
+    font-size: 28px;
+    color: #fffaf3;
+    transform: translateY(1px);
+    transition: rotate ease-in-out 0.3s;
+}
+
+.form-search_btn:hover i {
+    cursor: pointer;
+    transform: scale(1.2);
+    animation: animateColor ease-in-out 1s infinite;
+}
+
+.user {
+    margin: -23px 0px 0px 1300px;
+}
+
+.user .a1 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.user span a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.user span a:hover {
+    color: red
+}
+
+/* img */
+.thanhtuu {
+    text-align: center;
+}
+
+/* footer */
+footer {
+    background-color: #0065c3;
+    width: 1519px;
+    height: 200px;
+}
+
+footer img {
+    float: left;
+    width: 5%;
+    padding: 60px 0px 0px 50px;
+}
+
+footer .footer-link1 {
+    float: left;
+    padding: 50px 0px 0px 200px;
+}
+
+footer .footer-link1 h1 {
+    text-decoration: none;
+    font-size: 15px;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer .footer-link1 p {
+    text-decoration: none;
+    font-size: 15px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer .footer-link1 {
+    float: left;
+    padding: 50px 0px 0px 100px;
+}
+
+footer .footer-link1 h1 {
+    text-decoration: none;
+    font-size: 15px;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer .footer-link1 a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer .footer-link1 a:hover {
+    color: red;
+}
+
+footer .footer-link2 {
+    float: left;
+    padding: 50px 0px 0px 100px;
+}
+
+footer .footer-link2 h1 {
+    text-decoration: none;
+    font-size: 15px;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer .footer-link2 a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer .footer-link2 a:hover {
+    color: red;
+}
+
+footer .footer-link3 {
+    float: left;
+    padding: 50px 0px 0px 100px;
+}
+
+footer .footer-link3 h1 {
+    text-decoration: none;
+    font-size: 15px;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer .footer-link3 a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer .footer-link3 a:hover {
+    color: red;
+}
+
+footer .footer-text {
+    border-radius: 30px;
+    float: right;
+    border: 2px solid white;
+    width: 200px;
+    height: 40px;
+    margin: 35px 250px 0px 0px;
+}
+
+footer .footer-text p {
+    text-align: center;
+    font-size: 25px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer .footer-icon {
+    float: left;
+    width: 300px;
+    height: 40px;
+    margin: 10px 0px 0px 150px;
+}
+
+footer .footer-icon i {
+    padding: 0px 0px 0px 20px;
+    font-size: 30px;
+    color: #ffffff;
+}
